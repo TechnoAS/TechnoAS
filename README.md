@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## I'm a Student and  Programmer !!
+
+- 🌱 I’m currently learning C++ and JAVA 
+- 👯 I’m looking to collaborate with other content creators
+- 🥅 2021 Goals: Learn JAVA and JAVA SCRIPT
+- ⚡ Fun fact: I am a NOOB
