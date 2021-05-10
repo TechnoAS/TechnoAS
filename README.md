@@ -1,4 +1,4 @@
-### Hola, I'm Siddhant - aka [HawkEYE]👋
+# Hola, I'm Siddhant - aka [HawkEYE]👋
 
 <!--
 **TechnoAS/TechnoAS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
