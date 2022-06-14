@@ -2,8 +2,8 @@
 
 ## I'm a Student and  Programmer !!
 - 🔭 I’m currently studing CST 
-- 🌱 I’m currently learning C++ and JAVA 
-- 🥅 2021 Goals: Learn JAVA and JAVA SCRIPT
+- 🌱 I’m currently learning JAVA and JS
+- 🥅 2022 Goals: Learn React
 - ⚡ Fun fact: I am a NOOB
 
 ## Connect with me:
