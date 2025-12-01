@@ -14,7 +14,7 @@ jobs:
         id: snake_job
         with:
           # Replace 'technoas' if your GitHub username is different
-          github_user_name: technoas 
+          github_user_name: TechnoAs 
           
           # List of files to generate (adjust as needed)
           outputs: |
