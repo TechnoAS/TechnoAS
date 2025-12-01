@@ -6,7 +6,6 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# Grant permission to write to the repository (Required for pushing the branch)
 permissions:
   contents: write
 
@@ -21,15 +20,14 @@ jobs:
         uses: Platane/snk@v3
         id: snake_job
         with:
-          # Automatically uses the repository owner's username
           github_user_name: ${{ github.repository_owner }}
-          
-          # Generates the light and dark mode versions
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # CRITICAL CHANGE: using your new Personal Access Token here
+          # allows the snake to 'eat' your private contributions too!
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
 
       - name: Push to output branch
         uses: crazy-max/gh-action-github-pages@v3
@@ -37,4 +35,5 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
+          # We keep the default token here for pushing the file, it is safer
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
